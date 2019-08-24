@@ -1,0 +1,18 @@
+﻿ 
+
+
+ .required-field:after {
+    color: #dc3434 /*#ec4444*/;
+    content: "❊";
+    position: relative;
+    margin-left: 2px;
+   /* top: 1px;*/
+  top: -5px;
+font-size: 8px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left !important;
+}
